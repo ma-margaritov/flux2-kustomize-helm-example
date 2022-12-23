@@ -24,7 +24,7 @@ spec:
       enabled: false
       annotations:
         kubernetes.io/ingress.class: nginx
-    service:
-      type: LoadBalancer
-      externalIPs:
-      - 192.168.100.100
+#     service:
+#       type: LoadBalancer
+#       externalIPs:
+#       - 192.168.100.100
