@@ -9,7 +9,7 @@ spec:
     spec:
       chart: netbox
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: netbox
         namespace: netbox
   interval: 5m

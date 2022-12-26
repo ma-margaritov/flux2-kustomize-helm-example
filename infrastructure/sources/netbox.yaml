@@ -1,10 +1,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: GitRepository
+kind: HelmRepository
 metadata:
   name: netbox
   namespace: netbox
 spec:
   interval: 5m
-  url: https://github.com/bootc/netbox-chart
+  # url: https://github.com/bootc/netbox-chart
+  url: https://charts.boo.tc
   ref:
     branch: master
