@@ -7,5 +7,3 @@ spec:
   interval: 5m
   # url: https://github.com/bootc/netbox-chart
   url: https://charts.boo.tc
-  ref:
-    branch: master
